@@ -1,0 +1,13 @@
+prefix=C:/caiyongji/ML/envs/tf2/Library
+exec_prefix=C:/caiyongji/ML/envs/tf2/Library
+libdir=C:/caiyongji/ML/envs/tf2/Library/lib
+sharedlibdir=C:/caiyongji/ML/envs/tf2/Library/lib
+includedir=C:/caiyongji/ML/envs/tf2/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
